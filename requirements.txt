@@ -1,4 +1,4 @@
-pytorch==1.11.0
+pytorch==1.1O.0
 pytorch-pretrained-bert==0.6.2 
 torchaudio==0.11.0
 torchvision==0.12.0
