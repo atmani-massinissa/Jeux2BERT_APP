@@ -18,7 +18,7 @@ class Jeux2BERT:
         self.entities = None
         
         self.max_seq_length = 128
-        self.eval_batch_size = 360
+        self.eval_batch_size = 50#360
     
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.rel_tokenizer = FlaubertTokenizer.from_pretrained(model_path, do_lower_case=do_lower_case)
